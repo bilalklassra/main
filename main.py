@@ -326,4 +326,4 @@ def get_stats():
 # Health check endpoint
 @app.get("/health")
 def health_check():
-    return {"status": "healthy",
+    return {"status": "healthy"}
